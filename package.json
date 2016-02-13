@@ -1,0 +1,19 @@
+{
+  "name": "d3-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack && http-server -a localhost -p 8000 -c-1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^3.5.15",
+    "underscore": "^1.8.3",
+    "webpack": "^1.12.13"
+  },
+  "devDependencies": {
+    "http-server": "^0.8.5"
+  }
+}
